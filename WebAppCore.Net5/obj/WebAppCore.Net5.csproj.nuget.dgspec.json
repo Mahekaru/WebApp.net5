@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahek\\source\\repos\\WebAppCore.Net5\\WebAppCore.Net5.csproj": {}
+    "C:\\Users\\mahek\\Documents\\Source\\WebApp.net5\\WebAppCore.Net5\\WebAppCore.Net5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahek\\source\\repos\\WebAppCore.Net5\\WebAppCore.Net5.csproj": {
+    "C:\\Users\\mahek\\Documents\\Source\\WebApp.net5\\WebAppCore.Net5\\WebAppCore.Net5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahek\\source\\repos\\WebAppCore.Net5\\WebAppCore.Net5.csproj",
+        "projectUniqueName": "C:\\Users\\mahek\\Documents\\Source\\WebApp.net5\\WebAppCore.Net5\\WebAppCore.Net5.csproj",
         "projectName": "WebAppCore.Net5",
-        "projectPath": "C:\\Users\\mahek\\source\\repos\\WebAppCore.Net5\\WebAppCore.Net5.csproj",
+        "projectPath": "C:\\Users\\mahek\\Documents\\Source\\WebApp.net5\\WebAppCore.Net5\\WebAppCore.Net5.csproj",
         "packagesPath": "C:\\Users\\mahek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahek\\source\\repos\\WebAppCore.Net5\\obj\\",
+        "outputPath": "C:\\Users\\mahek\\Documents\\Source\\WebApp.net5\\WebAppCore.Net5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,20 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
